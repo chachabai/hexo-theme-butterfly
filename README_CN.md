@@ -8,48 +8,48 @@
 ![license](https://img.shields.io/github/license/jerryc127/hexo-theme-butterfly?color=FF5531)
 
 
-預覽: 👍 [Butterfly](https://demo.jerryc.me/)  ||  🤞 [JerryC](https://jerryc.me/)
+预览: 👍 [Butterfly](https://demo.jerryc.me/)  ||  🤞 [JerryC](https://jerryc.me/)
 
-文檔: 📖 [Butterfly Docs](https://demo.jerryc.me/posts/21cfbf15/)
+文档: 📖 [Butterfly Docs](https://demo.jerryc.me/posts/21cfbf15/)
 
-一款基於[hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody)修改的主題
+一款基于[hexo-theme-melody](https://github.com/Molunerfinn/hexo-theme-melody)修改的主题
 
-## 安裝
+## 安装
 
-### Git 安裝
+### Git 安装
 
-在博客根目錄裡安裝穩定版【推薦】
+在博客根目录裡安装稳定版【推荐】
 
 ```powershell
 git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 ```
 
-如果想要安裝比較新的dev分支，可以
+如果想要安装比较新的dev分支，可以
 
 ```powershell
 git clone -b dev https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
 ```
 
-### npm 安裝
+### npm 安装
 
 > 此方法只支持Hexo 5.0.0以上版本
 
-在博客根目錄裡
+在博客根目录裡
 
 ```powershell
 npm i hexo-theme-butterfly
 ```
 
-## 應用主題
-修改hexo配置文件`_config.yml`，把主題改為`Butterfly`
+## 应用主题
+修改hexo配置文件`_config.yml`，把主题改为`Butterfly`
 
 ```
 theme: butterfly
 ```
 
->如果你沒有pug以及stylus的渲染器，請下載安裝： npm install hexo-renderer-pug hexo-renderer-stylus --save
+>如果你没有pug以及stylus的渲染器，请下载安装： npm install hexo-renderer-pug hexo-renderer-stylus --save
 
-## 截圖
+## 截图
 
 ![image](https://user-images.githubusercontent.com/16351105/58887365-1272f780-8718-11e9-9329-3292c6ba20d4.png)
 ![image](https://user-images.githubusercontent.com/16351105/58887457-3cc4b500-8718-11e9-9417-2bdea603c92e.png)
