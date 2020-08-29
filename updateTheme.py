@@ -5,5 +5,5 @@ os.system('git add .')
 if len(sys.argv) < 2:
 	os.system('git commit -m "update"')
 else:
-	os.system('git commit -m "' + str(sys.argv[1:]) + '"')
+	os.system('git commit -m "' + ' '.join(sys.argv[1:]) + '"')
 os.system('git push origin master')
