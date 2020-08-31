@@ -45,8 +45,8 @@ If you are a problem when visit the website, please open your browser 'developer
 
 ## Steps to reproduce the behavior <!-- (重現步驟) -->
 1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
+2. Click on '...'
+3. Scroll down to '...'
 4. See error
 
 <!-- If applicable, add screenshots to help explain your problem -->
