@@ -7,3 +7,6 @@ if len(sys.argv) < 2:
 else:
 	os.system('git commit -m "' + ' '.join(sys.argv[1:]) + '"')
 os.system('git push origin master')
+
+# 强制更新
+# os.system('git push -f -u origin master')

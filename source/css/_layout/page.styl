@@ -143,11 +143,16 @@
     &:hover
       color: $text-hover !important
       transform: scale(1.1)
-
+	
+	+maxWidth768()
+      zoom: .85
+  
   &__title
     text-align: center
     font-size: 1.8rem
-
+	
+	+maxWidth768()
+      font-size: 2em
   &-tags
     text-align: center
 
