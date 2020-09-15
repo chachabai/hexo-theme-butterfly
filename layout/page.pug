@@ -3,9 +3,6 @@ extends includes/layout.pug
 block content
   if page.type === 'tags'
     .tag-cloud
-      .tag-cloud__title= _p('page.tag')
-        |  - 
-        span.tag-cloud__amount= site.tags.length
       .tag-cloud-tags
         !=cloudTags({source: site.tags, minfontsize: 15, maxfontsize: 30, limit: 0})
       if page.comments !== false && theme.comments && theme.comments.use
